@@ -1,0 +1,45 @@
+body{
+  background-color: #ffdd59;  
+}
+
+.boxes{
+  position: absolute;
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxes a{
+  display: inline-block;
+  white-space: nowrap;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #3c40c6;
+  background-color: #fff;
+  box-shadow: 0 5px 15px -5px #00000060;
+  margin: 5px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.boxes a i{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #3c40c6;
+}
+
+.boxes a:hover{
+  transition: .2s linear;
+  font-size: 1.2rem;
+  /* For make bigger button */
+  transform: scale(1.1);
+}
+
